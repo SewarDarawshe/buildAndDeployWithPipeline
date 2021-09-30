@@ -47,7 +47,7 @@ pipeline {
         //deploing the war file on tomcat9
         stage('Deploy'){
             steps{
-  script{
+                 script{
                    gv.dep() 
                     
                 }            
@@ -58,14 +58,7 @@ pipeline {
         
         
     }
+  
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
+}
 }
